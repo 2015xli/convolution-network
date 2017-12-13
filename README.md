@@ -1,3 +1,5 @@
-## A simple tutorial on multi-layer perceptron in Python
+## A simple tutorial on convolution network in Python
 
-It has a sigle-sample-based stochastic gradient descent algorithm, and a mini-batch-based one. The second one can have better performance, i.e., test accuracy, with less training iterations, if tuned properly.
+It has a single-sample-based stochastic gradient descent algorithm, that uses a convolution layer, a perceptron layer (fully connection layer), and a softmax output layer.  
+
+The convolution layer uses 4-level for-loop for convolution and gradients computations. It can be further optimized, but probably not necessary as a tutorial.
